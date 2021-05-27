@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    line-height: 1.4;
+    background-color: whitesmoke;
+}
+
+a, h1, p, li {
+    font-family: Montserrat, sans-serif;
+}
+
+a {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 302px 1fr;
+    grid-template-rows: 1fr;
+}
+
+.header-doc {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / 2;
+    border-right: darkgray solid;
+}
+
+.nav-bar {
+    position: fixed;
+}
+
+.header-doc h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.header-doc a {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.header-doc li {
+    padding: .8rem 0;
+    border-top: black solid;
+    border-width: 1px;
+}
+
+.main-doc {
+    margin: 3rem 3rem;
+}
+
+.main-doc h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main-doc p {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main-doc li {
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+code {
+    display: block;
+    text-align: left;
+    word-break: normal;
+    word-wrap: normal;
+    padding: 1rem;
+    background-color:white;
+    border-radius: 5px;
+}
+
+.hello-world code {
+    white-space: pre-line;
+}
