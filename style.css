@@ -53,12 +53,14 @@ body {
     margin-left: 2rem;
     text-decoration: none;
     color: black;
+    display: block;
 }
 
 .header-doc li {
     padding: .8rem 0;
     border-top: black solid;
     border-width: 1px;
+    width: 299px;
 }
 
 .main-doc {
@@ -89,8 +91,16 @@ code {
     padding: 1rem;
     background-color:white;
     border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
 }
 
-.hello-world code {
+.hello-world code, #doubleline, .multiline {
     white-space: pre-line;
+    line-height: 1.4;
 }
+
+#sublist {
+    margin-left: 4em;
+}
+
